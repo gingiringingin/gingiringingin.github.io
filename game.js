@@ -317,7 +317,7 @@ let chapter = [
         ],
         [//Section 1 End the call
             ['End the call'],
-            ['|%DOOT% '],
+            ['|  %DOOT% '],
             ['The call seem to have ended before you put the phone down.'],
             ["|You should stop playing around next time. You should've said that you didn't call."],
             ['...'],

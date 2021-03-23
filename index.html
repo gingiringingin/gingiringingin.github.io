@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game Title</title>
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&family=Staatliches" rel="stylesheet">
+        <style>
+            #game-title-container {
+                font-family: "Syne Mono";
+                display: inline-block;
+                font-size: 111px;
+                position: absolute;
+                top: -95px;    
+                left: 248px;
+            }
+            #game-title {
+                color: #300505;
+                display: inline-block;
+  	            overflow: hidden;
+  	            letter-spacing: 2px;
+ 	            animation: typing 2s steps(10, end), blink .75s step-end infinite;
+                white-space: nowrap;
+                border-right: 4px solid #0E100B;
+                box-sizing: border-box;
+            }
+            @keyframes typing {
+                from { 
+                width: 0% 
+                }
+                to { 
+                width: 100% 
+                }
+            }
+            @keyframes blink {
+                from, to { 
+                border-color: transparent 
+                }
+                50% { 
+                border-color: #0E100B; 
+                }
+            }
+            body {
+                background-image: url(https://th.bing.com/th/id/R33c6a7b74ce8f24fb80b97205f0cf611?rik=CQpGEoCc7TQV0g&riu=http%3a%2f%2f31.media.tumblr.com%2ftumblr_mc92a3M6qQ1rn0vh6o1_500.gif);
+                background-repeat: no-repeat;
+                background-size: cover;
+                font-family: "Space Mono", monospace;
+                font-size: 30px;
+                animation: fadeInAnimation ease 1.5s; 
+                animation-iteration-count: 1; 
+                animation-fill-mode: initial; 
+            }
+            @keyframes fadeInAnimation {
+                0% { 
+                opacity: 0; 
+                } 
+            100% { 
+                opacity: 1; 
+                } 
+            }
+            a {
+                color: #100000;
+                text-decoration: none;
+            }
+            a:hover {
+                color:#f5f5f5; 
+            }
+            #instructions {
+                border: 2px solid  #100000;
+                background-color: #10000050;
+                border-radius: 4px;
+                transition: 0.75s;
+                position: absolute;
+                top: 320px;
+                right: 400px;
+                padding: 10px 10px 10px 10px;
+            }
+            #instructions:hover {
+                background-color: #100000;
+            }
+            #start-game {
+                text-align: center;
+                border: 2px solid  #100000;
+                background-color: #10000050;
+                border-radius: 4px;
+                transition: 0.75s;
+                position: absolute;
+                top: 320px;
+                left: 400px;
+                width: 181.5px;
+                padding: 10px 10px 10px 10px;
+            }
+            #start-game:hover {
+                background-color:  #100000;
+            }
+            #developers {
+                text-align: center;
+                border: 2px solid  #47474B;
+                background-color: #47474B50;
+                border-radius: 4px;
+                transition: 0.75s;
+                position: absolute;
+                top: 480px;
+                left: 400px;
+                width: 550px;
+                padding: 10px 10px 10px 10px;
+            }
+            #developers:hover {
+                background-color: #47474B;
+            }
+            #developers a {
+                color: #2d2d30;
+            }
+            #developers a:hover {
+                color: #e3d4ad;
+            }
+            #cheat-sheet {
+                text-align: center;
+                border: 2px solid  #100000;
+                background-color: #10000050;
+                border-radius: 4px;
+                transition: 0.75s;
+                position: absolute;
+                top: 400px;
+                left: 400px;
+                width: 550px;
+                padding: 10px 10px 10px 10px;
+            }
+            #cheat-sheet:hover {
+                background-color:  #100000;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="game-title-container">
+            <h1 id="game-title">Daymare</h1>
+        </div>
+        <div id="instructions">
+            <a href="instructions.html">How to play</a> 
+        </div>
+        <div id="start-game">
+            <a href="game.html">Start</a>
+        </div>
+        <div id="cheat-sheet">
+            <a href="cheat-sheet.html">Cheat Sheet</a>
+        </div>
+        <div id="developers">
+            <a href="about.html">About the Developers</a>
+        </div>
+    </body>
+</html>

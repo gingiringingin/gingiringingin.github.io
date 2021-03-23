@@ -1846,7 +1846,7 @@ function secondChoice(){
 
     updateIndex(3,11,0,0,0,3,13,0,0,0,"<span id='monster'>Continue to Chapter 4.5<span>");  //Wash Ladle
 
-    updateIndex(3,14,0,0,0,3,15,0,0,0,"<span id='monster'>Continue to Chapter 4.5<span>");
+    updateIndex(3,14,0,0,0,3,16,0,0,0,"<span id='monster'>Continue to Chapter 4.5<span>");
 
     updateIndex(4,0,0,0,0,4,2,0,0,0,"Attack","Do Nothing");
 

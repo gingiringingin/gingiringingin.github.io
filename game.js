@@ -1396,7 +1396,7 @@ function next(){
         nextCharacterLoop();
     }
     else {
-        delaytMultiplier = 0.2;
+        delaytMultiplier = 0.5;
     }
     function nextCharacterLoop() {
         if (chapter[chapterIndex][sectionIndex][lineIndex][sentenceIndex][characterIndex] == "|"){
